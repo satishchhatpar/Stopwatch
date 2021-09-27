@@ -66,6 +66,7 @@
 		2301005B26F85C77008EDCD9 /* Stopwatch */ = {
 			isa = PBXGroup;
 			children = (
+				23F5B1C227025D1C0064EE0C /* Unused Views */,
 				23F1AB2126F8A6320017F6F8 /* ViewModels */,
 				23F1AB2026F8A6140017F6F8 /* Models */,
 				23F1AB1F26F8A6050017F6F8 /* Views */,
@@ -88,10 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				23708B1626FC6695004B199C /* Stopwatch.swift */,
-				23708B1826FC76A1004B199C /* WelcomeView.swift */,
-				23708B1A26FC777E004B199C /* BottomTextView.swift */,
-				23708B1C26FC77D5004B199C /* StopwatchColor.swift */,
-				23708B1E26FC78FE004B199C /* StartStopWatchView.swift */,
 				23B87DB62700F40200B50290 /* TestTimerZView.swift */,
 				23B87DB82700F79F00B50290 /* ToggleTextButton.swift */,
 			);
@@ -112,6 +109,17 @@
 				23708B2426FC9592004B199C /* StopWatchViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		23F5B1C227025D1C0064EE0C /* Unused Views */ = {
+			isa = PBXGroup;
+			children = (
+				23708B1826FC76A1004B199C /* WelcomeView.swift */,
+				23708B1A26FC777E004B199C /* BottomTextView.swift */,
+				23708B1C26FC77D5004B199C /* StopwatchColor.swift */,
+				23708B1E26FC78FE004B199C /* StartStopWatchView.swift */,
+			);
+			path = "Unused Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

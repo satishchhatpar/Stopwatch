@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2301005D26F85C77008EDCD9 /* StopwatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2301005C26F85C77008EDCD9 /* StopwatchApp.swift */; };
-		2301005F26F85C77008EDCD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2301005E26F85C77008EDCD9 /* ContentView.swift */; };
 		2301006126F85C79008EDCD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2301006026F85C79008EDCD9 /* Assets.xcassets */; };
 		2301006426F85C79008EDCD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2301006326F85C79008EDCD9 /* Preview Assets.xcassets */; };
+		23708B1726FC6695004B199C /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23708B1626FC6695004B199C /* Stopwatch.swift */; };
+		23708B1926FC76A1004B199C /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23708B1826FC76A1004B199C /* WelcomeView.swift */; };
+		23708B1B26FC777E004B199C /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23708B1A26FC777E004B199C /* BottomTextView.swift */; };
+		23708B1D26FC77D5004B199C /* StopwatchColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23708B1C26FC77D5004B199C /* StopwatchColor.swift */; };
+		23708B1F26FC78FE004B199C /* StartStopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23708B1E26FC78FE004B199C /* StartStopWatchView.swift */; };
+		23708B2526FC9592004B199C /* StopWatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23708B2426FC9592004B199C /* StopWatchViewModel.swift */; };
+		23708B2726FC9631004B199C /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23708B2626FC9631004B199C /* StopWatch.swift */; };
+		23B87DB72700F40200B50290 /* TestTimerZView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B87DB62700F40200B50290 /* TestTimerZView.swift */; };
+		23B87DB92700F79F00B50290 /* ToggleTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B87DB82700F79F00B50290 /* ToggleTextButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2301005926F85C77008EDCD9 /* Stopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stopwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2301005C26F85C77008EDCD9 /* StopwatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchApp.swift; sourceTree = "<group>"; };
-		2301005E26F85C77008EDCD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2301006026F85C79008EDCD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2301006326F85C79008EDCD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2301006526F85C79008EDCD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23708B1626FC6695004B199C /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
+		23708B1826FC76A1004B199C /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		23708B1A26FC777E004B199C /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
+		23708B1C26FC77D5004B199C /* StopwatchColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchColor.swift; sourceTree = "<group>"; };
+		23708B1E26FC78FE004B199C /* StartStopWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartStopWatchView.swift; sourceTree = "<group>"; };
+		23708B2426FC9592004B199C /* StopWatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchViewModel.swift; sourceTree = "<group>"; };
+		23708B2626FC9631004B199C /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
+		23B87DB62700F40200B50290 /* TestTimerZView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTimerZView.swift; sourceTree = "<group>"; };
+		23B87DB82700F79F00B50290 /* ToggleTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTextButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +66,9 @@
 		2301005B26F85C77008EDCD9 /* Stopwatch */ = {
 			isa = PBXGroup;
 			children = (
-				2301005C26F85C77008EDCD9 /* StopwatchApp.swift */,
-				2301005E26F85C77008EDCD9 /* ContentView.swift */,
+				23F1AB2126F8A6320017F6F8 /* ViewModels */,
+				23F1AB2026F8A6140017F6F8 /* Models */,
+				23F1AB1F26F8A6050017F6F8 /* Views */,
 				2301006026F85C79008EDCD9 /* Assets.xcassets */,
 				2301006526F85C79008EDCD9 /* Info.plist */,
 				2301006226F85C79008EDCD9 /* Preview Content */,
@@ -67,6 +82,36 @@
 				2301006326F85C79008EDCD9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		23F1AB1F26F8A6050017F6F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23708B1626FC6695004B199C /* Stopwatch.swift */,
+				23708B1826FC76A1004B199C /* WelcomeView.swift */,
+				23708B1A26FC777E004B199C /* BottomTextView.swift */,
+				23708B1C26FC77D5004B199C /* StopwatchColor.swift */,
+				23708B1E26FC78FE004B199C /* StartStopWatchView.swift */,
+				23B87DB62700F40200B50290 /* TestTimerZView.swift */,
+				23B87DB82700F79F00B50290 /* ToggleTextButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		23F1AB2026F8A6140017F6F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				23708B2626FC9631004B199C /* StopWatch.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		23F1AB2126F8A6320017F6F8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				23708B2426FC9592004B199C /* StopWatchViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +183,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2301005F26F85C77008EDCD9 /* ContentView.swift in Sources */,
-				2301005D26F85C77008EDCD9 /* StopwatchApp.swift in Sources */,
+				23708B1D26FC77D5004B199C /* StopwatchColor.swift in Sources */,
+				23708B1B26FC777E004B199C /* BottomTextView.swift in Sources */,
+				23708B2526FC9592004B199C /* StopWatchViewModel.swift in Sources */,
+				23708B1926FC76A1004B199C /* WelcomeView.swift in Sources */,
+				23B87DB92700F79F00B50290 /* ToggleTextButton.swift in Sources */,
+				23708B1F26FC78FE004B199C /* StartStopWatchView.swift in Sources */,
+				23B87DB72700F40200B50290 /* TestTimerZView.swift in Sources */,
+				23708B1726FC6695004B199C /* Stopwatch.swift in Sources */,
+				23708B2726FC9631004B199C /* StopWatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
